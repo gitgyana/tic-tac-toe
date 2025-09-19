@@ -69,6 +69,58 @@
                     </div>
                 </div>
             </section> 
+
+            <section class="settings-panel">
+                <details class="settings-dropdown">
+                    <summary class="settings-toggle">
+                        <span>Settings</span>
+                        <span class="settings-icon">⚙️</span>
+                    </summary>
+                    <div class="settings-content">
+                        <div class="setting-item">
+                            <label for="sound-toggle" class="setting-label">
+                                Sound Effects
+                            </label>
+                            <input 
+                                type="checkbox" 
+                                id="sound-toggle" 
+                                class="setting-checkbox"
+                                checked
+                                aria-describedby="sound-desc"
+                            >
+                            <div id="sound-desc" class="sr-only">Toggle click and win sound effects</div>
+                        </div>
+                        
+                        <div class="setting-item">
+                            <label for="animation-toggle" class="setting-label">
+                                Animations
+                            </label>
+                            <input 
+                                type="checkbox" 
+                                id="animation-toggle" 
+                                class="setting-checkbox"
+                                checked
+                                aria-describedby="animation-desc"
+                            >
+                            <div id="animation-desc" class="sr-only">Toggle game animations and effects</div>
+                        </div>
+
+                        <div class="setting-item">
+                            <label for="darkmode-toggle" class="setting-label">
+                                Dark Mode
+                            </label>
+                            <input 
+                                type="checkbox" 
+                                id="darkmode-toggle" 
+                                class="setting-checkbox"
+                                checked
+                                aria-describedby="darkmode-desc"
+                            >
+                            <div id="darkmode-desc" class="sr-only">Toggle dark mode effects</div>
+                        </div>
+                    </div>
+                </details>
+            </section>
         </main>
     </div>
 </body>
