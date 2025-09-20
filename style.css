@@ -35,6 +35,18 @@
     --space-20: 20px;
     --space-24: 24px;
     --space-32: 32px;
+    
+    /*Layout*/
+    --container-sm: 640px;
+    --container-md: 768px;
+    --container-lg: 1024px;
+    --container-xl: 1280px;
+
+    /*Layout measurements*/
+    --cell-size: clamp(60px, 15vw, 120px);
+    --cell-gap: clamp(8px, 2vw, 16px);
+    --border-radius: 12px;
+    --shadow-glow: 0 0 20px;
 
     /*Animation timings*/
     --fast-transition: 0.15s;
