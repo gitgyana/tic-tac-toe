@@ -14,4 +14,18 @@
     --font-weight-bold: 600;
     --line-height-tight: 1.2;
     --line-height-normal: 1.5;
+
+    /*Spacing*/
+    --space-0: 0;
+    --space-1: 1px;
+    --space-2: 2px;
+    --space-4: 4px;
+    --space-6: 6px;
+    --space-8: 8px;
+    --space-10: 10px;
+    --space-12: 12px;
+    --space-16: 16px;
+    --space-20: 20px;
+    --space-24: 24px;
+    --space-32: 32px;
 }
