@@ -5,6 +5,13 @@
     --game-text: #ffffff;
     --game-text-dim: #cccccc;
 
+    /*Neon color palette*/
+    --neon-green: #00ff88;
+    --neon-pink: #ff0080;
+    --neon-blue: #0088ff;
+    --neon-purple: #8800ff;
+    --neon-orange: #ff8800;
+
     /*Typography*/
     --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
