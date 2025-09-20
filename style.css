@@ -1,7 +1,7 @@
 :root {
-  /*Dark theme colors*/
-  --game-bg: #1a1a1a;
-  --game-surface: #2a2a2a;
-  --game-text: #ffffff;
-  --game-text-dim: #cccccc;
+    /*Dark theme colors*/
+    --game-bg: #1a1a1a;
+    --game-surface: #2a2a2a;
+    --game-text: #ffffff;
+    --game-text-dim: #cccccc;
 }
